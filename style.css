@@ -1,0 +1,14 @@
+.head {
+	background: yellow;
+	color: black;
+	padding: 50px;
+}
+.rem {
+	border: solid green 4px;
+	padding: 30px;
+	font-size: 300%;
+	color: black;
+	margin: 30px;
+}
+.button {
+	margin: 10px;
