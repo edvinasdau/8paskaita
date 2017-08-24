@@ -22,9 +22,23 @@
 			<div class="rem" id="4">4</div>
 		</div>
 		<div class="row">
-			<button onclick="()" class="button btn btn-lg btn-outline-danger">Random</button>
-			<button onclick="show()" class="button btn btn-lg btn-outline-danger"><--</button>
-			<button onclick="show()" class="button btn btn-lg btn-outline-danger">--></button>
+			<button onclick="show()" class="button btn btn-lg btn-outline-success">Random</button>
+			<button onclick="()" class="button btn btn-lg btn-outline-danger"><--</button>
+			<button onclick="()" class="button btn btn-lg btn-outline-danger">--></button>
 		</div>
 	</div>
+		<script type="text/javascript">
+
+		function show() {
+
+			var skaicius;
+			 = Math.floor(Math.random() * 5);
+
+			for (var i = 1; i <= 9; i++) {
+				document.getElementById(skaicius).style.backgroundColor = "white";
+			}
+			
+			document.getElementById(skaicius).style.backgroundColor = "red";
+		}
+	</script>
 </html>
